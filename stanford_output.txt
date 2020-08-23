@@ -1,0 +1,417 @@
+Who arrived second in the 10000 biathlon?
+(ROOT
+  (SBARQ [59,556]
+    (WHNP [3,059] (WP Who))
+    (SQ [54,703]
+      (VP [54,670] (VBD arrived)
+        (ADJP [7,136] (JJ second))
+        (PP [32,066] (IN in)
+          (NP [29,840] (DT the) (CD 10000) (NN biathlon)))))
+    (. ?)))
+
+
+Who won gold in the 10000 biathlon?
+(ROOT
+  (SBARQ [56,060]
+    (WHNP [3,059] (WP Who))
+    (SQ [51,207]
+      (VP [51,174] (VBD won)
+        (NP [9,662] (NN gold))
+        (PP [32,066] (IN in)
+          (NP [29,840] (DT the) (CD 10000) (NN biathlon)))))
+    (. ?)))
+
+
+Who arrived third in the 10000 biathlon?
+(ROOT
+  (SBARQ [59,514]
+    (WHNP [3,059] (WP Who))
+    (SQ [54,661]
+      (VP [54,628] (VBD arrived)
+        (NP [43,128]
+          (NP [10,631] (JJ third))
+          (PP [32,091] (IN in)
+            (NP [29,840] (DT the) (CD 10000) (NN biathlon))))))
+    (. ?)))
+
+
+Who arrived first in the 10000 biathlon?
+(ROOT
+  (SBARQ [55,177]
+    (WHNP [3,059] (WP Who))
+    (SQ [50,324]
+      (VP [50,291] (VBD arrived)
+        (ADVP [5,530] (RB first))
+        (PP [32,066] (IN in)
+          (NP [29,840] (DT the) (CD 10000) (NN biathlon)))))
+    (. ?)))
+
+
+Who arrived second in the nh skijumping?
+(ROOT
+  (SBARQ [59,982]
+    (WHNP [3,059] (WP Who))
+    (SQ [55,129]
+      (VP [55,096] (VBD arrived)
+        (ADJP [7,136] (JJ second))
+        (PP [32,492] (IN in)
+          (NP [30,267] (DT the) (NN nh) (NN skijumping)))))
+    (. ?)))
+
+
+Who won gold in the nh skijumping?
+(ROOT
+  (SBARQ [56,486]
+    (WHNP [3,059] (WP Who))
+    (SQ [51,633]
+      (VP [51,601] (VBD won)
+        (NP [9,662] (NN gold))
+        (PP [32,492] (IN in)
+          (NP [30,267] (DT the) (NN nh) (NN skijumping)))))
+    (. ?)))
+
+
+Who arrived third in the nh skijumping?
+(ROOT
+  (SBARQ [59,941]
+    (WHNP [3,059] (WP Who))
+    (SQ [55,088]
+      (VP [55,055] (VBD arrived)
+        (NP [43,554]
+          (NP [10,631] (JJ third))
+          (PP [32,518] (IN in)
+            (NP [30,267] (DT the) (NN nh) (NN skijumping))))))
+    (. ?)))
+
+
+Who arrived first in the nh skijumping?
+(ROOT
+  (SBARQ [55,604]
+    (WHNP [3,059] (WP Who))
+    (SQ [50,751]
+      (VP [50,718] (VBD arrived)
+        (ADVP [5,530] (RB first))
+        (PP [32,492] (IN in)
+          (NP [30,267] (DT the) (NN nh) (NN skijumping)))))
+    (. ?)))
+
+
+Who arrived second in the 1000 speedskating?
+(ROOT
+  (SBARQ [60,352]
+    (WHNP [3,059] (WP Who))
+    (SQ [55,499]
+      (VP [55,466] (VBD arrived)
+        (ADJP [7,136] (JJ second))
+        (PP [32,862] (IN in)
+          (NP [30,636] (DT the) (CD 1000) (NN speedskating)))))
+    (. ?)))
+
+
+Who won gold in the 1000 speedskating?
+(ROOT
+  (SBARQ [56,856]
+    (WHNP [3,059] (WP Who))
+    (SQ [52,003]
+      (VP [51,970] (VBD won)
+        (NP [9,662] (NN gold))
+        (PP [32,862] (IN in)
+          (NP [30,636] (DT the) (CD 1000) (NN speedskating)))))
+    (. ?)))
+
+
+Who arrived third in the 1000 speedskating?
+(ROOT
+  (SBARQ [60,310]
+    (WHNP [3,059] (WP Who))
+    (SQ [55,457]
+      (VP [55,424] (VBD arrived)
+        (NP [43,924]
+          (NP [10,631] (JJ third))
+          (PP [32,887] (IN in)
+            (NP [30,636] (DT the) (CD 1000) (NN speedskating))))))
+    (. ?)))
+
+
+Who arrived first in the 1000 speedskating?
+(ROOT
+  (SBARQ [55,973]
+    (WHNP [3,059] (WP Who))
+    (SQ [51,120]
+      (VP [51,087] (VBD arrived)
+        (ADVP [5,530] (RB first))
+        (PP [32,862] (IN in)
+          (NP [30,636] (DT the) (CD 1000) (NN speedskating)))))
+    (. ?)))
+
+
+Did Luca arrive second in the 10000 biathlon?
+(ROOT
+  (SQ [74,959] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [53,997] (VB arrive)
+      (ADJP [7,136] (JJ second))
+      (PP [32,066] (IN in)
+        (NP [29,840] (DT the) (CD 10000) (NN biathlon))))
+    (. ?)))
+
+
+Did Luca win gold in the 10000 biathlon?
+(ROOT
+  (SQ [71,432] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [50,470] (VB win)
+      (NP [9,662] (NN gold))
+      (PP [32,066] (IN in)
+        (NP [29,840] (DT the) (CD 10000) (NN biathlon))))
+    (. ?)))
+
+
+Did Luca arrive third in the 10000 biathlon?
+(ROOT
+  (SQ [74,753] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [53,791] (VB arrive)
+      (NP [43,128]
+        (NP [10,631] (JJ third))
+        (PP [32,091] (IN in)
+          (NP [29,840] (DT the) (CD 10000) (NN biathlon)))))
+    (. ?)))
+
+
+Did Luca arrive first in the 10000 biathlon?
+(ROOT
+  (SQ [71,794] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [50,832] (VB arrive)
+      (ADVP [5,530] (RB first))
+      (PP [32,066] (IN in)
+        (NP [29,840] (DT the) (CD 10000) (NN biathlon))))
+    (. ?)))
+
+
+Did Luca arrive second in the nh skijumping?
+(ROOT
+  (SQ [75,386] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [54,424] (VB arrive)
+      (ADJP [7,136] (JJ second))
+      (PP [32,492] (IN in)
+        (NP [30,267] (DT the) (NN nh) (NN skijumping))))
+    (. ?)))
+
+
+Did Luca win gold in the nh skijumping?
+(ROOT
+  (SQ [71,858] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [50,896] (VB win)
+      (NP [9,662] (NN gold))
+      (PP [32,492] (IN in)
+        (NP [30,267] (DT the) (NN nh) (NN skijumping))))
+    (. ?)))
+
+
+Did Luca arrive third in the nh skijumping?
+(ROOT
+  (SQ [75,180] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [54,218] (VB arrive)
+      (NP [43,554]
+        (NP [10,631] (JJ third))
+        (PP [32,518] (IN in)
+          (NP [30,267] (DT the) (NN nh) (NN skijumping)))))
+    (. ?)))
+
+
+Did Luca arrive first in the nh skijumping?
+(ROOT
+  (SQ [72,221] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [51,259] (VB arrive)
+      (ADVP [5,530] (RB first))
+      (PP [32,492] (IN in)
+        (NP [30,267] (DT the) (NN nh) (NN skijumping))))
+    (. ?)))
+
+
+Did Luca arrive second in the 1000 speedskating?
+(ROOT
+  (SQ [75,755] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [54,793] (VB arrive)
+      (ADJP [7,136] (JJ second))
+      (PP [32,862] (IN in)
+        (NP [30,636] (DT the) (CD 1000) (NN speedskating))))
+    (. ?)))
+
+
+Did Luca win gold in the 1000 speedskating?
+(ROOT
+  (SQ [72,228] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [51,266] (VB win)
+      (NP [9,662] (NN gold))
+      (PP [32,862] (IN in)
+        (NP [30,636] (DT the) (CD 1000) (NN speedskating))))
+    (. ?)))
+
+
+Did Luca arrive third in the 1000 speedskating?
+(ROOT
+  (SQ [75,549] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [54,587] (VB arrive)
+      (NP [43,924]
+        (NP [10,631] (JJ third))
+        (PP [32,887] (IN in)
+          (NP [30,636] (DT the) (CD 1000) (NN speedskating)))))
+    (. ?)))
+
+
+Did Luca arrive first in the 1000 speedskating?
+(ROOT
+  (SQ [72,590] (VBD Did)
+    (NP [13,810] (NNP Luca))
+    (VP [51,628] (VB arrive)
+      (ADVP [5,530] (RB first))
+      (PP [32,862] (IN in)
+        (NP [30,636] (DT the) (CD 1000) (NN speedskating))))
+    (. ?)))
+
+
+Did a Canadian woman arrive second in the 10000 biathlon?
+(ROOT
+  (SQ [79,521] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [53,997] (VB arrive)
+      (ADJP [7,136] (JJ second))
+      (PP [32,066] (IN in)
+        (NP [29,840] (DT the) (CD 10000) (NN biathlon))))
+    (. ?)))
+
+
+Did a Canadian woman win gold in the 10000 biathlon?
+(ROOT
+  (SQ [75,993] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [50,470] (VB win)
+      (NP [9,662] (NN gold))
+      (PP [32,066] (IN in)
+        (NP [29,840] (DT the) (CD 10000) (NN biathlon))))
+    (. ?)))
+
+
+Did a Canadian woman arrive third in the 10000 biathlon?
+(ROOT
+  (SQ [79,315] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [53,791] (VB arrive)
+      (NP [43,128]
+        (NP [10,631] (JJ third))
+        (PP [32,091] (IN in)
+          (NP [29,840] (DT the) (CD 10000) (NN biathlon)))))
+    (. ?)))
+
+
+Did a Canadian woman arrive first in the 10000 biathlon?
+(ROOT
+  (SQ [76,356] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [50,832] (VB arrive)
+      (ADVP [5,530] (RB first))
+      (PP [32,066] (IN in)
+        (NP [29,840] (DT the) (CD 10000) (NN biathlon))))
+    (. ?)))
+
+
+Did a Canadian woman arrive second in the nh skijumping?
+(ROOT
+  (SQ [79,947] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [54,424] (VB arrive)
+      (ADJP [7,136] (JJ second))
+      (PP [32,492] (IN in)
+        (NP [30,267] (DT the) (NN nh) (NN skijumping))))
+    (. ?)))
+
+
+Did a Canadian woman win gold in the nh skijumping?
+(ROOT
+  (SQ [76,420] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [50,896] (VB win)
+      (NP [9,662] (NN gold))
+      (PP [32,492] (IN in)
+        (NP [30,267] (DT the) (NN nh) (NN skijumping))))
+    (. ?)))
+
+
+Did a Canadian woman arrive third in the nh skijumping?
+(ROOT
+  (SQ [79,741] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [54,218] (VB arrive)
+      (NP [43,554]
+        (NP [10,631] (JJ third))
+        (PP [32,518] (IN in)
+          (NP [30,267] (DT the) (NN nh) (NN skijumping)))))
+    (. ?)))
+
+
+Did a Canadian woman arrive first in the nh skijumping?
+(ROOT
+  (SQ [76,782] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [51,259] (VB arrive)
+      (ADVP [5,530] (RB first))
+      (PP [32,492] (IN in)
+        (NP [30,267] (DT the) (NN nh) (NN skijumping))))
+    (. ?)))
+
+
+Did a Canadian woman arrive second in the 1000 speedskating?
+(ROOT
+  (SQ [80,317] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [54,793] (VB arrive)
+      (ADJP [7,136] (JJ second))
+      (PP [32,862] (IN in)
+        (NP [30,636] (DT the) (CD 1000) (NN speedskating))))
+    (. ?)))
+
+
+Did a Canadian woman win gold in the 1000 speedskating?
+(ROOT
+  (SQ [76,789] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [51,266] (VB win)
+      (NP [9,662] (NN gold))
+      (PP [32,862] (IN in)
+        (NP [30,636] (DT the) (CD 1000) (NN speedskating))))
+    (. ?)))
+
+
+Did a Canadian woman arrive third in the 1000 speedskating?
+(ROOT
+  (SQ [80,111] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [54,587] (VB arrive)
+      (NP [43,924]
+        (NP [10,631] (JJ third))
+        (PP [32,887] (IN in)
+          (NP [30,636] (DT the) (CD 1000) (NN speedskating)))))
+    (. ?)))
+
+
+Did a Canadian woman arrive first in the 1000 speedskating?
+(ROOT
+  (SQ [77,152] (VBD Did)
+    (NP [18,372] (DT a) (JJ Canadian) (NN woman))
+    (VP [51,628] (VB arrive)
+      (ADVP [5,530] (RB first))
+      (PP [32,862] (IN in)
+        (NP [30,636] (DT the) (CD 1000) (NN speedskating))))
+    (. ?)))
+
+

@@ -1,0 +1,97 @@
+Did Groothuis win gold in speedskating?
+(ROOT												ROOT -> SQ {recurse}
+  (SQ [57,707] (VBD Did)							SQ -> VBD NP VP ? {select += "count(*)", f(VP)->bind(NP), build from f.str}
+    (NP [14,115] (NNPS Groothuis))					NP -> NNPS | NNP {return string}
+    (VP [36,441] (VB win)							VP -> VB NP PP {new lambda, lambda->bind(PP, NP)}
+      (NP [9,662] (NN gold))						NP -> NN {return string}
+      (PP [16,895] (IN in)							PP -> IN S {PP <- S}
+        (S [13,612]									S -> VP {VP <- PP}
+          (VP [13,607] (VBG speedskating)))))		VP -> VBG {return string}
+    (. ?)))
+
+
+Did a Russian man win gold in speedskating?			
+(ROOT												ROOT -> SQ
+  (SQ [63,567] (VBD Did)							SQ -> VBD NP VP ?
+    (NP [19,975] (DT a) (JJ Russian) (NN man))		NP -> DT JJ NN {return "<map(JJ);NN>"}
+    (VP [36,441] (VB win)							VP -> VB NP PP
+      (NP [9,662] (NN gold))						NP -> NN
+      (PP [16,895] (IN in)							PP -> IN S
+        (S [13,612]									S -> VP
+          (VP [13,607] (VBG speedskating)))))		VP -> VBG
+    (. ?)))
+
+
+Who won gold in speedskating?
+(ROOT												ROOT -> SBARQ {recurse}
+  (SBARQ [42,103]									SBARQ -> WHNP SQ ? {select += "R.winner", recurse on SQ}
+    (WHNP [3,059] (WP Who))							WHNP -> WP
+    (SQ [37,250]									SQ -> VP {f(VP).bind(""); build from f(str)}
+      (VP [37,217] (VBD won)						VP -> VBD NP PP
+        (NP [9,662] (NN gold))						NP -> NN
+        (PP [18,109] (IN in)						PP -> IN NP {PP <- NP} 
+        												| IN ADJP {PP <- ADJP}, 
+        											ADJP -> JJ {return string}
+          (NP [15,884] (NN speedskating)))))		NP -> NN
+    (. ?)))
+
+VP -> VBD ADVP PP, ADVP ->RB
+VP -> VBD ADJP JJ, ADJP -> JJ
+
+-------
+
+Did Groothuis win gold in speed skating?
+(ROOT
+  (SQ [67,773] (VBD Did)							SQ -> VBD NP VP ?
+    (NP [14,115] (NNPS Groothuis))					NP -> NNPS
+    (VP [46,507] (VB win)							VP -> VB NP PP
+      (NP [9,662] (NN gold))						NP -> NN
+      (PP [28,103] (IN in)							PP -> IN NP
+        (NP [25,878] (NN speed) (NN skating))))		NP -> NN NN
+    (. ?)))
+
+
+Did a Russian man win gold in speed skating?
+(ROOT
+  (SQ [73,633] (VBD Did)							SQ -> VBD NP VP ? lambda.bind(lambda = foo(VP); lambda.bind(NP);)
+    (NP [19,975] (DT a) (JJ Russian) (NN man))		NP -> DT JJ NN {from += INNER JOIN ATHLETES ....."; return "<" + map(JJ) + ";" + visitTree(NN) + ">"}
+    (VP [46,507] (VB win)							VP -> VB NP PP {lambda.bind(PP); lambda.bind(NP); return lambda;)}
+      (NP [9,662] (NN gold))						NP -> NN
+      (PP [28,103] (IN in)							PP -> IN NP
+        (NP [25,878] (NN speed) (NN skating))))		NP -> NN NN
+    (. ?)))
+
+
+Who won gold in speed skating?
+(ROOT
+  (SBARQ [52,097]									SBARQ -> WHNP SQ ? {select = "SELECT A.name"}
+    (WHNP [3,059] (WP Who))							WHNP -> WHO
+    (SQ [47,244]									SQ -> VP
+      (VP [47,211] (VBD won)						VP -> VBD NP PP
+        (NP [9,662] (NN gold))						NP -> NN
+        (PP [28,103] (IN in)						PP -> IN NP
+          (NP [25,878] (NN speed) (NN skating)))))	NP -> NN NN
+    (. ?)))
+    
+Did An win gold in the 500 speedskating?
+
+(ROOT
+  (SQ (VBD Did)
+    (NP (NNP An))
+    (VP (VB win)
+      (NP (NN gold))
+      (PP (IN in)										PP -> IN NP
+        (NP (DT the) (CD 500) (NN speedskating)))) 		NP -> DT CD NN
+    (. ?)))
+	
+Did An win gold in the nh skijumping?
+
+(ROOT
+  (SQ (VBD Did)
+    (NP (NNP An))
+    (VP (VB win)
+      (NP (NN gold))
+      (PP (IN in)										PP -> IN NP
+        (NP (DT the) (NN nh) (NN skijumping))))			NP -> DT NN NN
+    (. ?)))	
+    
